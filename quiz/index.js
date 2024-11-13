@@ -1,5 +1,5 @@
 
-    // Estrutura das perguntas, respostas e respostas corretas
+   // Estrutura das perguntas, respostas e respostas corretas
     const perguntas = [
         {
             pergunta: "Dentre as definições abaixo, a que melhor se aplica à atmosfera protetora é:",
@@ -534,7 +534,7 @@
             correta: 2
         },
         {
-            pergunta: " Indique, entre as opções abaixo a correta sobre o tratamento térmico "têmpera e revenido".	",
+            pergunta: " Indique, entre as opções abaixo a correta sobre o tratamento térmico têmpera e revenido.	",
             respostas: ["Aquecimento a uma temperatura acima da zona crítica, austenitização, resfriamento lento e reaquecimento a temperaturas bastante inferiores à temperatura crítica. ", "Acompanha o tratamento térmico de têmpera atenuando os inconvenientes desta quanto à obtenção de martensita com elevada dureza e baixa tenacidade. ", " Aquecimento a uma temperatura acima da zona crítica, austenitização e resfriamento ao ar.", ") É feito após a têmpera com o propósito de aumentar a dureza da martensita e reduzir a sua tenacidade. ","Aquecimento a uma temperatura abaixo da zona crítica, austenitização, resfriamento rápido e reaquecimento a temperaturas bastante inferiores à temperatura crítica. "],
             correta: 1
         },
@@ -1053,3 +1053,4 @@
 
     // Evento para o botão "Próxima Pergunta"
     document.getElementById("nextBtn").addEventListener("click", proximaPergunta);
+
